@@ -1,0 +1,44 @@
+.root{
+    -fx-background-color: #18DAD3;
+}
+
+.menu-bar {
+    -fx-background-color: #287B78;
+}
+
+.menu{
+	-fx-background-color: #C5F3F2;
+	-fx-border-color: white;
+}
+
+
+.menu:hover{
+	-fx-background-color: #0C5B31;
+}
+
+
+.scroll-pane{
+    -fx-border-color: black;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+
+.menu-item .label {
+    -fx-text-fill: black;
+}
+
+.menu-item:focused {
+     -fx-background-color: black;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: white;
+}
+
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: #C5F3F2;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+}
